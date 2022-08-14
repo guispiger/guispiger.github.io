@@ -1,0 +1,15 @@
+.width-btn {
+    width: 2.5em;
+}
+
+.carousel-item{
+    transition: 1s;
+}
+
+.link-portifolio{
+    text-decoration: none;
+}
+
+img{
+    opacity: 45%;
+}

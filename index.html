@@ -4,26 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.2.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <script src="bootstrap-5.2.0-dist/js/bootstrap.js"></script>
     <title>guispiger</title>
 </head>
 <body>
-    <header>
-        <h1>Site Pessoal de Guilherme B Spiger</h1>
+    <header id="topo">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
 
-        <nav>
-            <ul>
-                <li><a href="#sobre" title="sobre">Sobre</a></li>
-                <li><a href="#historia" title="historia">História</a></li>
-                <li><a href="#exp-profissional" title="Experiencia-Profissional">Experiência Profissional</a></li>
-                <li><a href="#portifolio" title="Portifolio">Portifólio</a></li>
-                <li><a href="#contato" title="Contato">Contato</a></li>
-            </ul>
+            <div class="container-fluid justify-content-center">
+                <h1 class="navbar-brand">Guilherme B Spiger</h1>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#sobre" title="sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#historia" title="historia">História</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#exp-profissional" title="Experiencia-Profissional">Experiência Profissional</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portifolio" title="Portifolio">Portifólio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato" title="Contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
             
         </nav>
     </header>
    
 
-    <main>
+    <main class="container text-center">
         <section id="sobre">
             <h2>Sobre</h2>
             <p>Olá seja bem vindo ao meu site pessoal; aqui você vai encontrar algumas informações sobre mim e alguns dos meus trabalhos realizados nessa caminhada para me tornar um desenvolvedor web.</p>
@@ -31,70 +43,95 @@
 
         <section id="historia">
             <h2>Um resumo da minha história até aqui:</h2>
-            <p>Sou natural do estado do <a href="https://pt.wikipedia.org/wiki/Rio_Grande_do_Sul" title="Rio-Grande-do-Sul" target="_blank">Rio Grande do Sul</a> e vivi a maior parte do tempo na cidade de <a href="https://palmeiradasmissoes.atende.net/cidadao" title="Palmeira-das-Missões" target="_blank">Palmeira das Missões</a>. Lá fiz o ensino fundamental na escola Cacique Neenguiru (a mais antiga da cidade) e conclui o ensino médio concomitantemente com o ensino técnico em agropecuária na <a href="https://www.facebook.com/eetcgobbato/" title="Escola-Estadual-Técnica-Celeste-Gobatto" target="_blank">E.E.T. Celeste Gobbato</a>, fase interessante da minha vida pois estudei lá em regime de internato.</p>
-            <p>Ainda em Palmeira (como os nativos a chamam comumente, mas por favor não cometa a ofença de adicionar um "s" ao final) me graduei bacharel em administração pela <a href="https://www.ufsm.br/unidades-universitarias/palmeira-das-missoes/" title="UFSM-PM" target="_blank">UFSM - Campus Palmeira das Missões</a>. Atualmente, como parte de antigos anseios pessoais, estou buscando fazer uma transição de carreira para a área de desenvolvimento de software, em especial para a web, já que me sinto fascinado pelas possibilidades de solucionar problemas que essa atividade proporciona.</p>
-            <p>Como parte desta transição estou cursando a graduação em <a href="http://www.utfpr.edu.br/cursos/graduacao/tecnologia/tecnologia-em-sistemas-para-internet" title="TSI-UTFPR-TD" target="_blank">Tecnologia em Sistemas para Internet</a> na <a href="http://www.utfpr.edu.br/campus/toledo" title="UTFPR-TD" target="_blank">UTFPR-TD</a>.</p>
+            <p>Sou natural do estado do <a class="link-dark" href="https://pt.wikipedia.org/wiki/Rio_Grande_do_Sul" title="Rio-Grande-do-Sul" target="_blank">Rio Grande do Sul</a> e vivi a maior parte do tempo na cidade de <a class="link-dark" href="https://palmeiradasmissoes.atende.net/cidadao" title="Palmeira-das-Missões" target="_blank">Palmeira das Missões</a>. Lá fiz o ensino fundamental na escola Cacique Neenguiru (a mais antiga da cidade) e conclui o ensino médio concomitantemente com o ensino técnico em agropecuária na <a class="link-dark" href="https://www.facebook.com/eetcgobbato/" title="Escola-Estadual-Técnica-Celeste-Gobatto" target="_blank">E.E.T. Celeste Gobbato</a>, fase interessante da minha vida pois estudei lá em regime de internato.</p>
+            <p>Ainda em Palmeira (como os nativos a chamam comumente, mas por favor não cometa a ofença de adicionar um "s" ao final) me graduei bacharel em administração pela <a class="link-dark" href="https://www.ufsm.br/unidades-universitarias/palmeira-das-missoes/" title="UFSM-PM" target="_blank">UFSM - Campus Palmeira das Missões</a>. Atualmente, como parte de antigos anseios pessoais, estou buscando fazer uma transição de carreira para a área de desenvolvimento de software, em especial para a web, já que me sinto fascinado pelas possibilidades de solucionar problemas que essa atividade proporciona.</p>
+            <p>Como parte desta transição estou cursando a graduação em <a class="link-dark" href="http://www.utfpr.edu.br/cursos/graduacao/tecnologia/tecnologia-em-sistemas-para-internet" title="TSI-UTFPR-TD" target="_blank">Tecnologia em Sistemas para Internet</a> na <a class="link-dark" href="http://www.utfpr.edu.br/campus/toledo" title="UTFPR-TD" target="_blank">UTFPR-TD</a>.</p>
         </section>
 
         <section id="exp-profissional">
             <h2>Experiência Profissional</h2>
-            <p>Atuo desde 2014 na empresa <a href="http://grupoanalys.com.br/site/" title="Grupo-Analys" target="_blank">Grupo Analys</a>. Em março de 2020 migrei para o trabalho remoto.</p>
+            <p>Atuo desde 2014 na empresa <a class="link-dark" href="http://grupoanalys.com.br/site/" title="Grupo-Analys" target="_blank">Grupo Analys</a>. Em março de 2020 migrei para o trabalho remoto.</p>
             <p>Minhas principais atividades são:</p>
-            <ul>
-                <li>Confeccionar mapas de fertilidade de solo e de aplicação de insumos.</li>
-                <li>Gerenciar a distribuição de tarefas para os integrantes do setor de mapas.</li>
-                <li>Desenvolver metodos para realizar as tarefas/operações do setor de mapas.</li>
-                <li>Confecção de mapas diversos.</li>
+            <ul class="list-group">
+                <li class="list-group-item">Confeccionar mapas de fertilidade de solo e de aplicação de insumos.</li>
+                <li class="list-group-item">Gerenciar a distribuição de tarefas para os integrantes do setor de mapas.</li>
+                <li class="list-group-item">Desenvolver metodos para realizar as tarefas/operações do setor de mapas.</li>
+                <li class="list-group-item">Confecção de mapas diversos.</li>
             </ul>
 
-            <p>Mais informações profissionais podem ser obtidas no meu <a href="https://br.linkedin.com/in/guilherme-baumgratz-spiger-4a6919184" title="Linkedin-Guilherme-B-Spiger" target="_blank">Linkedin</a>.</p>
+            <p>Mais informações profissionais podem ser obtidas no meu <a class="link-dark" href="https://br.linkedin.com/in/guilherme-baumgratz-spiger-4a6919184" title="Linkedin-Guilherme-B-Spiger" target="_blank">Linkedin</a>.</p>
         </section>
 
         <section id="portifolio">
             <h2>Portifólio</h2>
             <p>Aqui estão alguns dos meus trabalhos como desenvolvedor (em aprendizagem):</p>
 
-            <ul>
-                <li>
-                        <a href="https://guispiger.github.io/devmedia-pousada-web/" title="Pousada-web" target="_blank">
-                            <p>Web site com html+css: Pousada-web</p>
-                            <img src="img/pousada-dev.png" alt="Miniatura do website pousada secreta" title="Pousada-web" width=300>
+            <div id="carouselPortifolio" class="carousel carousel-dark slide w-75 mx-auto" data-bs-ride="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselPortifolio" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselPortifolio" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselPortifolio" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a class="link-dark link-portifolio" href="https://guispiger.github.io/devmedia-pousada-web/" title="Pousada-web" target="_blank">
+                            <img class="d-block w-100 text-center" src="img/pousada-dev.png" alt="Miniatura do website pousada secreta" title="Pousada-web">
+                            <div class="carousel-caption">
+                                    <p>Web site com html+css: Pousada-web</p>
+                            </div>
                         </a>                     
-                </li>
-                <li>
-                        <a href=" https://guispiger.github.io/clinica-medica" title="Clinica-Médica" target="_blank">
-                            <p>Web site com html+css responsivo: Clínica Médica</p>
-                            <img src="img/clinica-medica.png" alt="Miniatura do web site clinica medica" title="Clinica-Medica" width=300>
-                        </a>                
-                </li>
-                <li>
-                    <a href="https://github.com/guispiger/aprendendo-js-devmedia" title="Projetos-JS" target="_blank">
-                        <p>Projetos para praticar lógica de programação com javascript</p>
-                        <img src="img/GitHub-Mark-120px-plus.png" alt="Miniatura do github" title="Projetos-js">
-                    </a>
-                </li>
-            </ul>
+                    </div>
+                    <div class="carousel-item">
+                        <a class="link-dark link-portifolio" href=" https://guispiger.github.io/clinica-medica" title="Clinica-Médica" target="_blank">
+                            <img class="d-block w-100" src="img/clinica-medica.png" alt="Miniatura do web site clinica medica" title="Clinica-Medica">
+                            <div class="carousel-caption">   
+                                    <p>Web site com html+css responsivo: Clínica Médica</p>
+                            </div>
+                        </a>                 
+                    </div>
+                    <div class="carousel-item">
+                        <a class="link-dark link-portifolio" href="https://github.com/guispiger/aprendendo-js-devmedia" title="Projetos-JS" target="_blank">
+                            <img class="d-block w-100" src="img/GitHub_Logo.png" alt="Miniatura do github" title="Projetos-js">
+                            <div class="carousel-caption">
+                                    <p>Projetos para praticar lógica de programação com javascript</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortifolio" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselPortifolio" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+            </div>  
         </section>
     </main>
 
-    <footer>
+    <footer class="text-center text-bg-dark bg-dark">
         <section id="contato">
             <h2>Contato</h2>
             <p>Abaixo estão algumas formas de entrar em contato comigo.</p>
-            <ul>
-                <li>
-                    <p>Email: <a href="mailto:guispiger@hotmail.com" title="enviar-email">guispiger@hotmail.com</a></p>
-                </li>
-                <li>
-                    <a href="https://github.com/guispiger" title="github" target="_blank">github</a>
-                </li>
-                <li>
-                    <a href="https://br.linkedin.com/in/guilherme-baumgratz-spiger-4a6919184" title="Linkedin-Guilherme-B-Spiger" target="_blank">Linkedin.</a>
-                </li>
-            </ul>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark justify-content-center">
+                <ul class="navbar-nav">
+                    <li class = nav-item>
+                        <a class="nav-link" href="mailto:guispiger@hotmail.com" title="enviar-email">E-mail</a>
+                    </li>
+                    <li class = nav-item>
+                        <a class="nav-link" href="https://github.com/guispiger" title="github" target="_blank">github</a>
+                    </li>
+                    <li class = nav-item>
+                        <a class="nav-link" href="https://br.linkedin.com/in/guilherme-baumgratz-spiger-4a6919184" title="Linkedin-Guilherme-B-Spiger" target="_blank">Linkedin.</a>
+                    </li>
+                </ul>
+            </nav>
         </section>
-        <p>Desenvolvido por guispiger - 2022</p>
-    </footer>
+        <p class="mb-0">Desenvolvido por guispiger - 2022</p>
+    </footer>  
+    </div>
     
 </body>
 </html>
